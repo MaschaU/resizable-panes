@@ -1,0 +1,32 @@
+#wrapper {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    
+}
+#daypic {
+    position: absolute;
+    overflow: hidden;
+    width: 800px;
+    z-index: 5;
+
+}
+#nightpic {
+    position: absolute;
+}
+#splitter {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    height: 600px;
+    width: 15px;
+    background-color:whitesmoke;
+    left: 150px;
+    z-index: 10;
+    cursor: pointer;
+    
+}
+#day, #night {
+    width: 800px;
+    height: 600px;
+}
